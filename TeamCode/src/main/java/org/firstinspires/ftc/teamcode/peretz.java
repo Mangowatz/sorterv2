@@ -48,11 +48,11 @@ public class peretz extends LinearOpMode {
         waitForStart();
         while (opModeIsActive()) {
             colorFeedback();
-            conveyorBelt.setPower(1);
+            //conveyorBelt.setPower(1);
 
-            while ((jimmyTheSensor.red() >= 4) && (jimmyTheSensor.green() >= 4) && (jimmyTheSensor.blue() >= 4)) {//there is a block
-                deposit();
-            }
+            //while ((jimmyTheSensor.red() >= 4) && (jimmyTheSensor.green() >= 4) && (jimmyTheSensor.blue() >= 4)) {//there is a block
+                //deposit();
+            //}
         }
     }
 

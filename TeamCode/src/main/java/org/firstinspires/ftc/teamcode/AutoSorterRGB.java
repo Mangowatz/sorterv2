@@ -16,17 +16,17 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 @Autonomous(name = "rgb", group = "Autonomous")
 public class AutoSorterRGB extends LinearOpMode {
 
-    static final int block1R = 7; //green block
-    static final int block1G = 7;
-    static final int block1B = 7;
+    static final int block1R = 8; //red block
+    static final int block1G = 4;
+    static final int block1B = 4;
 
-    static final int block2R = 11;//tan
-    static final int block2G = 9;
-    static final int block2B = 7;
+    static final int block2R = 16;//tan
+    static final int block2G = 14;
+    static final int block2B = 12;
 
-    static final int block3R = 140;//pink
-    static final int block3G = 80;
-    static final int block3B = 80;
+    static final int block3R = 7;//yellow
+    static final int block3G = 6;
+    static final int block3B = 5;
 
 
     private static final double COUNTS_PER_MOTOR_REV    = 1440 ;    // eg: TETRIX Motor Encoder
@@ -51,7 +51,7 @@ public class AutoSorterRGB extends LinearOpMode {
             conveyorBelt.setPower(1);
             telemetry.update();
 
-            while ((jimmyTheSensor.red() >= 4) && (jimmyTheSensor.green() >= 4) && (jimmyTheSensor.blue() >= 4)) {//there is a block
+            while ((jimmyTheSensor.red() >= 3) && (jimmyTheSensor.green() >= 3) && (jimmyTheSensor.blue() >= 3)) {//there is a block
                 deposit();
             }
         }
@@ -76,11 +76,11 @@ public class AutoSorterRGB extends LinearOpMode {
         telemetry.update();
     }
     private void deposit(){
-        encoderDrive(.5,-.75,5);
+        //encoderDrive(.5,-.75,5);
         if(/*color matches up with brick1*/
-                        (jimmyTheSensor.red() <= block1R +2)&&(jimmyTheSensor.red() >= block1R-2)
-                        &&(jimmyTheSensor.green() <= block1G +2)&&(jimmyTheSensor.green() >= block1G-2)
-                        &&(jimmyTheSensor.blue() <= block1B +2)&&(jimmyTheSensor.blue() >= block1B-2))
+                        (jimmyTheSensor.red() <= block1R +3)&&(jimmyTheSensor.red() >= block1R+3)
+                        &&(jimmyTheSensor.green() <= block1G +3)&&(jimmyTheSensor.green() >= block1G+3)
+                        &&(jimmyTheSensor.blue() <= block1B +3)&&(jimmyTheSensor.blue() >= block1B+3))
             {
                 telemetry.addData("Block Chosen: ",1);
                 telemetry.update();
@@ -89,9 +89,9 @@ public class AutoSorterRGB extends LinearOpMode {
             }
 
         else if(/*color matches up with brick2*/
-                        (jimmyTheSensor.red() <= block2R +2)&&(jimmyTheSensor.red() >= block2R-2)
-                        &&(jimmyTheSensor.green() <= block2G +2)&&(jimmyTheSensor.green() >= block2G-2)
-                        &&(jimmyTheSensor.blue() <= block2B +2)&&(jimmyTheSensor.blue() >= block2B-2))
+                        (jimmyTheSensor.red() <= block2R +3)&&(jimmyTheSensor.red() >= block2R+3)
+                        &&(jimmyTheSensor.green() <= block2G +3)&&(jimmyTheSensor.green() >= block2G+3)
+                        &&(jimmyTheSensor.blue() <= block2B +3)&&(jimmyTheSensor.blue() >= block2B+3))
             {
                 telemetry.addData("Block Chosen: ",2);
                 telemetry.update();
@@ -100,9 +100,9 @@ public class AutoSorterRGB extends LinearOpMode {
             }
 
         else if(/*color matches up with brick3*/
-                        (jimmyTheSensor.red() <= block3R +2)&&(jimmyTheSensor.red() >= block3R-2)
-                        &&(jimmyTheSensor.green() <= block3G +2)&&(jimmyTheSensor.green() >= block3G-2)
-                        &&(jimmyTheSensor.blue() <= block3B +2)&&(jimmyTheSensor.blue() >= block3B-2))
+                        (jimmyTheSensor.red() <= block3R +3)&&(jimmyTheSensor.red() >= block3R+3)
+                        &&(jimmyTheSensor.green() <= block3G +3)&&(jimmyTheSensor.green() >= block3G+3)
+                        &&(jimmyTheSensor.blue() <= block3B +3)&&(jimmyTheSensor.blue() >= block3B+3))
             {
                 telemetry.addData("Block Chosen: ",3);
                 telemetry.update();
