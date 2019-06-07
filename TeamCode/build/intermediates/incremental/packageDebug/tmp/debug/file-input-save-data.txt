@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed May 15 17:28:08 EDT 2019
+#Thu Jun 06 13:35:50 EDT 2019
 20.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 143.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 237.path=images/ftc.png
@@ -21,7 +21,7 @@
 61.path=java/js/ext-spellcheck.js
 193.path=connection.html
 364.path=java/templates/BasicOpMode_Linear
-270.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/transforms/dexMerger/debug/20
+270.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 100.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 69.baseType=DIRECTORY
 397.path=java/templates/BasicOpMode_Iterative
@@ -159,7 +159,7 @@
 142.set=ASSET
 242.path=blocks/vector_f.js
 187.set=ASSET
-105.path=classes.dex
+105.path=lib/x86_64/libtensorflowlite_jni.so
 361.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 395.set=ASSET
 39.set=ASSET
@@ -313,7 +313,7 @@
 169.set=NATIVE_RESOURCE
 158.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 329.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
-270.path=classes.dex
+270.path=java/js/antlr4/tree/Tree.js
 68.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 100.path=images/ftcUltrasonicSensor.png
 94.set=NATIVE_RESOURCE
@@ -322,7 +322,7 @@
 304.path=images/ftcGamepad.png
 368.baseType=DIRECTORY
 166.path=java/js/main.js
-268.set=DEX
+268.set=ASSET
 43.path=blocks/temperature.js
 252.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 374.baseType=DIRECTORY
@@ -340,7 +340,7 @@
 277.baseType=DIRECTORY
 405.baseType=DIRECTORY
 293.path=lib/x86/libobject_tracking.so
-245.set=DEX
+245.set=ASSET
 283.baseType=DIRECTORY
 123.path=images/ftcCompassSensor.png
 123.set=ASSET
@@ -392,7 +392,7 @@
 253.set=ASSET
 37.path=blocks/android_text_to_speech.js
 131.set=ASSET
-246.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
+246.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/transforms/dexMerger/debug/15
 176.set=ASSET
 109.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 384.set=ASSET
@@ -414,7 +414,7 @@
 100.baseType=DIRECTORY
 236.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 361.set=ASSET
-269.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
+269.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/transforms/dexMerger/debug/13
 211.path=blocks/pidf_coefficients.js
 284.set=ASSET
 162.set=ASSET
@@ -665,7 +665,7 @@
 350.path=blocks/samples/ConceptTensorFlowObjectDetectionWebcam.blk
 25.set=ASSET
 213.path=java/js/antlr4/atn/LexerATNSimulator.js
-246.path=blocks/gyro_sensor.js
+246.path=classes.dex
 332.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 194.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 109.path=blocks/orientation.js
@@ -686,7 +686,7 @@
 195.baseType=DIRECTORY
 236.path=java/js/theme-solarized-light.js
 351.baseType=DIRECTORY
-269.path=java/js/perfect-scrollbar.jquery.js
+269.path=classes.dex
 52.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 56.set=ASSET
 307.set=ASSET
@@ -770,7 +770,7 @@
 95.set=ASSET
 346.set=ASSET
 96.path=blocks/samples/ConceptDeviceInteraction.blk
-269.set=ASSET
+269.set=DEX
 36.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 147.set=ASSET
 339.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
@@ -784,7 +784,7 @@
 323.set=ASSET
 176.path=blockly/media/1x1.gif
 347.path=java/js/antlr4/Lexer.js
-246.set=ASSET
+246.set=DEX
 124.set=ASSET
 116.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 259.baseType=DIRECTORY
@@ -806,7 +806,7 @@
 199.path=java/js/java/index.js
 352.baseType=DIRECTORY
 380.baseType=DIRECTORY
-106.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/transforms/mergeJniLibs/debug/0
+106.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/transforms/dexMerger/debug/21
 354.set=ASSET
 139.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 49.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
@@ -901,7 +901,7 @@
 311.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 173.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 344.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
-270.set=DEX
+270.set=ASSET
 319.baseType=DIRECTORY
 347.baseType=DIRECTORY
 377.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
@@ -959,7 +959,7 @@
 194.path=blocks/project_util.js
 57.baseType=DIRECTORY
 365.path=css/bootstrap-theme.css.map
-271.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
+271.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/transforms/dexMerger/debug/20
 101.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 35.baseType=DIRECTORY
 63.baseType=DIRECTORY
@@ -977,7 +977,7 @@
 44.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 167.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 227.set=ASSET
-105.set=DEX
+105.set=NATIVE_RESOURCE
 77.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 142.path=fonts/glyphicons-halflings-regular.eot
 403.set=ASSET
@@ -1068,7 +1068,7 @@
 36.path=java/templates/ConceptVuforiaNavigationWebcam
 121.set=ASSET
 339.path=java/css/tether.css
-245.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/transforms/dexMerger/debug/15
+245.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 108.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 374.set=NATIVE_RESOURCE
 220.path=css/bootstrap.min.css
@@ -1093,7 +1093,7 @@
 59.path=java/js/antlr4/BufferedTokenStream.js
 351.set=NATIVE_RESOURCE
 112.baseType=DIRECTORY
-268.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/transforms/dexMerger/debug/13
+268.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 140.baseType=DIRECTORY
 274.set=ASSET
 210.path=blockly/media/click.wav
@@ -1101,7 +1101,7 @@
 243.path=images/ftcAccelerationSensor.png
 6.set=ASSET
 197.set=ASSET
-106.path=lib/x86_64/libtensorflowlite_jni.so
+106.path=classes.dex
 362.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 139.path=images/ftcLinearOpMode.png
 49.set=ASSET
@@ -1257,7 +1257,7 @@
 126.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 102.set=ASSET
 159.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
-271.path=java/js/antlr4/tree/Tree.js
+271.path=classes.dex
 69.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 101.path=java/css/jquery.contextmenu.css
 400.set=ASSET
@@ -1357,7 +1357,7 @@
 389.baseType=DIRECTORY
 294.set=ASSET
 212.path=java/templates/ConceptVuMarkIdentificationWebcam
-245.path=classes.dex
+245.path=blocks/gyro_sensor.js
 331.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 61.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 193.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
@@ -1367,7 +1367,7 @@
 69.set=ASSET
 397.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 298.baseType=DIRECTORY
-271.set=ASSET
+271.set=DEX
 372.path=toolbox/utilities.xml
 3.set=ASSET
 202.path=java/templates/SensorBNO055IMU
@@ -1378,7 +1378,7 @@
 329.baseType=DIRECTORY
 357.baseType=DIRECTORY
 46.set=ASSET
-268.path=classes.dex
+268.path=java/js/perfect-scrollbar.jquery.js
 51.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/merged_assets/debug/out
 363.baseType=DIRECTORY
 391.baseType=DIRECTORY
@@ -1434,7 +1434,7 @@ count=407
 162.path=blocks/dc_motor.js
 109.baseType=DIRECTORY
 73.baseType=DIRECTORY
-106.set=NATIVE_RESOURCE
+106.set=DEX
 115.baseType=DIRECTORY
 143.baseType=DIRECTORY
 72.path=java/js/mode-groovy.js
@@ -1485,7 +1485,7 @@ count=407
 198.path=java/js/antlr4/README.md
 369.path=blockly/blockly_compressed.js
 358.baseType=DIRECTORY
-105.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/transforms/dexMerger/debug/21
+105.base=/Users/Adminv2/Desktop/Sorter/TeamCode/build/intermediates/transforms/mergeJniLibs/debug/0
 336.baseType=DIRECTORY
 364.baseType=DIRECTORY
 392.baseType=DIRECTORY

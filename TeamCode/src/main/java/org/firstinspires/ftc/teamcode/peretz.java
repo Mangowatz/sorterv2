@@ -48,6 +48,8 @@ public class peretz extends LinearOpMode {
         waitForStart();
         while (opModeIsActive()) {
             colorFeedback();
+            deposit();
+            conveyorBelt.setPower(gamepad1.right_trigger);
             //conveyorBelt.setPower(1);
 
             //while ((jimmyTheSensor.red() >= 4) && (jimmyTheSensor.green() >= 4) && (jimmyTheSensor.blue() >= 4)) {//there is a block
@@ -88,11 +90,11 @@ public class peretz extends LinearOpMode {
         {
             telemetry.addData("Block Chosen: ",1);
             separator.setPosition(.33);
-            encoderDrive(1,10,5);
+            //encoderDrive(1,10,5);
 
         }
 
-        else if(/*color matches up with brick2
+        if(/*color matches up with brick2
                 (jimmyTheSensor.red() <= block2R +50)&&(jimmyTheSensor.red() >= block2R-50)
                         &&(jimmyTheSensor.green() <= block2G +50)&&(jimmyTheSensor.green() >= block2G-50)
                         &&(jimmyTheSensor.blue() <= block2B +50)&&(jimmyTheSensor.blue() >= block2B-50)*/
@@ -100,10 +102,10 @@ public class peretz extends LinearOpMode {
         {
             telemetry.addData("Block Chosen: ",2);
             separator.setPosition(.5);
-            encoderDrive(1,15,5);
+            //encoderDrive(1,15,5);
         }
 
-        else if(/*color matches up with brick3
+        if(/*color matches up with brick3
                 (jimmyTheSensor.red() <= block3R +3)&&(jimmyTheSensor.red() >= block3R-3)
                         &&(jimmyTheSensor.green() <= block3G +3)&&(jimmyTheSensor.green() >= block3G-3)
                         &&(jimmyTheSensor.blue() <= block3B +3)&&(jimmyTheSensor.blue() >= block3B-3)*/
@@ -111,8 +113,9 @@ public class peretz extends LinearOpMode {
         {
             telemetry.addData("Block Chosen: ",3);
             separator.setPosition(.7);
-            encoderDrive(1,20,5);
+            //encoderDrive(1,20,5);
         }
+
         else{
             telemetry.addData("leaving loop: ","unknown");
             telemetry.update();
